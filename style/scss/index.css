@@ -1,0 +1,24 @@
+.bgTitleOrange {
+  background-color: #FF9029;
+  padding-left: 25px;
+  margin-left: -30px;
+  color: white;
+}
+
+.imgLogo img {
+  height: 80px;
+}
+
+.logoBackgroundColor {
+  background-color: #232323;
+}
+
+.menuLeft {
+  background-color: #232323;
+  color: white;
+}
+
+.menuLeft h3 {
+  color: #FF9029;
+}
+/*# sourceMappingURL=index.css.map */

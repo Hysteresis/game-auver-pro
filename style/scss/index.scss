@@ -1,0 +1,35 @@
+// variables et fonction
+$heightImg: 80px;
+$colorBackgroundMenuLeft: #232323;
+$colorMenuLeft: white;
+$colorH3MenuLeft: #FF9029;
+
+// base et layout
+.bgTitleOrange{
+    background-color: $colorH3MenuLeft;
+    padding-left: 25px;
+    margin-left: -30px;
+    color: white;
+}
+
+.imgLogo img {
+    height: $heightImg;
+}
+.logoBackgroundColor{
+    background-color: $colorBackgroundMenuLeft;
+}
+
+
+// colors
+.menuLeft{
+    background-color: $colorBackgroundMenuLeft;
+    color: $colorMenuLeft;
+
+    h3 {color: $colorH3MenuLeft;} 
+}
+// components (button, card, navbar)
+
+//utilities (margin, padding, opacity)
+
+
+
