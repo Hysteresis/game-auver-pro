@@ -13,10 +13,11 @@
 
 <body>
     <header>
-        <div class="container">
+        <!-- Mode Tablette et PC -->
+        <div class="container  d-none d-md-block ">
             <div class="row">
                 <div class="col-4 logoBackgroundColor text-center">
-                    <img class="img" height="auto" width="300px" src="style\images\logo.png" alt="logo">
+                    <img class="img-fluid" height="auto" width="300px" src="style\images\logo.png" alt="logo">
                 </div>
                 <div class="col-8 my-4">
                     <h1 class="text-center">Pierre MARBOUTIN</h1>
@@ -24,9 +25,25 @@
                 </div>
             </div>
         </div>
+        <!-- Mode Mobile -->
+        <div class="container  d-sm-block d-md-none ">
+            <div class="row">
+                <div class="col-4 logoBackgroundColor text-center d-flex align-items-center">
+                    <img class="img-fluid" height="auto" width="300px" src="style\images\logo.png" alt="logo">
+                </div>
+                <div class="col-8 my-4">
+                    <h1 class="text-center">Pierre MARBOUTIN</h1>
+                    <h2 class="text-center">Développeur Web Full Stack</h2>
+                </div>
+            </div>
+        </div>
+
+
+
     </header>
     <section class="">
-        <div class="container">
+        <!-- Mode Tablette et PC -->
+        <div class="container d-none d-md-block ">
             <div class="row">
                 <div class="col-4 menuLeft">
                     <h3>Profil</h3>
@@ -43,7 +60,7 @@
                     <p>18 route de Beaumont</p>
                     <p>43100 Brioude</p>
                     <p>06 58 34 34 77</p>
-                    <p>p.marboutin@gmail.com</p>               
+                    <p style="word-wrap: break-word;">p.marboutin@gmail.com</p>               
                 </div>
                 <div class="col-8">
                     <h3 class="bgTitleOrange">Formations</h3>
@@ -73,13 +90,78 @@
                 </div>
             </div>
             <div class="row">
-                <h3 class="text-center">Autres compétences</h3>
-                <div class="imgLogo d-flex justify-content-evenly py-4">
+                <h3 class="bgTitleOrangeFooter">Autres compétences</h3>
+                <div class="imgLogo d-flex justify-content-evenly py-4" style="background-color: #232323; margin-top: -15px;">
                         <img src="style\images\office.png" alt="">
                         <img src="style\images\gamemaker.png" alt="">
                         <img src="style\images\cubase.png" height="200px" alt=""> 
                 </div>
             </div>
+        </div>
+
+        <!-- Mode Mobile -->
+        <div class="container d-sm-block d-md-none ">
+            <div class="row ">
+                <div class="col menuLeft">
+                    <h3>Profil</h3>
+                    <p>Tombé dans le monde informatique depuis mes 6 ans, je me suis reconverti en développeur web afin de trouver un métier qui me permette de vivre de ma passion : le code</p>
+                    <h3>Mes atouts</h3>
+                    <p>Sérieux</p>
+                    <p>Autonome</p>   
+                    <p>Esprit d’équipe</p>   
+                    <p>Travailleur</p>  
+                    <h3>Mes centres d'intérêt</h3>
+                    <p>Créer de la musique</p>
+                    <p>Créer un jeu vidéo</p>
+                </div>
+                <div class="col">
+                    <h3 class="bgTitleOrangeMobile">Formations</h3>
+                    <p>2022 <span>Développeur Web Full Stack, Brioude</span></p>
+                    <p>1998 <span>CAPLP génie électrotechnique, Lyon</span></p>
+                    <p>1995 <span>Licence EEA, Clermont Ferrand</span></p>
+                    <p>1994 <span>Math Sup, Clermont Ferrand</span></p>
+                    <h3 class="bgTitleOrangeMobile">Expériences professionnelles</h3>
+                    <p>Mai/Juillet 2022 <span>Stage Développeur web – Site pour un restaurant</span></p>
+                    <p>2011 – 2021 <span>Professeur Technologie au collège</span></p>
+                    <p>2000 – 2011 <span>Professeur Electrotechnique en lycée</span></p>
+                    <h3 class="bgTitleOrangeMobile">Compétences Front End</h3>
+                    <div class="imgLogo d-flex justify-content-evenly py-2">
+                        <img src="style\images\figma.png" alt="logo figma">
+                        <img src="style\images\html.png" alt="logo html">
+                        <img src="style\images\css.png" alt="logo css">
+                    </div>  
+                    <div class="imgLogo d-flex justify-content-evenly py-2">
+                        <img src="style\images\bootstrap.svg" height="200px" alt="logo bootstrap">
+                        <img src="style\images\javascript.png" alt="logo javascript">
+                    </div> 
+                    <h3 class="bgTitleOrangeMobile">Compétences Back End</h3>
+                    <div class="imgLogo d-flex justify-content-evenly py-2">
+                        <img src="style\images\php.png" alt="">
+                        <img src="style\images\symfony.png" alt="">
+                    </div>  
+                    <div class="imgLogo d-flex justify-content-evenly py-2">
+                        <img src="style\images\mysql.svg" height="200px" alt=""> 
+                        <img src="style\images\phpmyadmin.png" alt="">
+                    </div>  
+                </div>
+
+            </div>
+           <div class="row">
+                <h3 class="bgTitleOrangeFooter">Autres compétences</h3>
+                <div class="imgLogo d-flex flex-wrap justify-content-evenly py-4" style="background-color: #232323; margin-top: -15px;">
+                        <img src="style\images\office.png" alt="">
+                        <img src="style\images\gamemaker.png" alt="">
+                        <img src="style\images\cubase.png" height="200px" alt=""> 
+                </div>
+                <div class="col menuLeft">
+                    <h3 class="text-center">Contact</h3>
+                    <p>18 route de Beaumont</p>
+                    <p>43100 Brioude</p>
+                    <p>06 58 34 34 77</p>
+                    <p>p.marboutin@gmail.com</p>               
+                </div>
+            </div>
+
         </div>
     </section>
 

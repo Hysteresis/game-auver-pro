@@ -3,13 +3,37 @@ $heightImg: 80px;
 $colorBackgroundMenuLeft: #232323;
 $colorMenuLeft: white;
 $colorH3MenuLeft: #FF9029;
+$paddingTitle: 8px;
 
 // base et layout
 .bgTitleOrange{
     background-color: $colorH3MenuLeft;
-    padding-left: 25px;
-    margin-left: -30px;
     color: white;
+    margin-left: -30px;
+    margin-right: -20px;
+    padding-left: 25px;
+    padding-bottom: $paddingTitle;
+    padding-top: $paddingTitle;
+    
+}
+
+.bgTitleOrangeMobile{
+    background-color: $colorH3MenuLeft;
+    color: white;
+    margin-left: -30px;
+    margin-right: -30px;
+    text-align: center;
+    padding-bottom: $paddingTitle;
+    padding-top: $paddingTitle;
+    font-size: larger;
+}
+
+.bgTitleOrangeFooter{
+    background-color: $colorH3MenuLeft;
+    color: white;
+    padding-top: $paddingTitle;
+    padding-bottom: $paddingTitle;
+    text-align: center;
 }
 
 .imgLogo img {
@@ -26,6 +50,10 @@ $colorH3MenuLeft: #FF9029;
     color: $colorMenuLeft;
 
     h3 {color: $colorH3MenuLeft;} 
+}
+
+p{
+    margin-bottom: 1em;
 }
 // components (button, card, navbar)
 
